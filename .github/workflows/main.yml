@@ -1,4 +1,4 @@
- name: Pulse - Daily Summary Bot
+name: Pulse - Daily Summary Bot
 
 on:
   workflow_dispatch:
@@ -16,4 +16,4 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run:python bot.py
+      - run: python bot.py 
